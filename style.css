@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-image: url("https://img.freepik.com/premium-vector/character-design-from-game-rock-paper-scissors_577212-202.jpg?w=2000" );
+  background-size: 100% auto; 
+  background-position: center;  
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.container {
+  text-align: center;
+}
+h1 {
+  margin-bottom: 50px;
+  font-size: 32px;
+}
+.result-box {
+  margin-bottom: 160px;
+  font-size: 25px;
+  line-height: 30px;
+}
+.result-box span {
+  font-weight: bold;
+}
+.draw {
+  margin-top: 10px;
+  font-size: 25px;
+  color: brown;
+}
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+}
+.choice {
+  font-size: 80px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.choice p {
+  font-size: 16px;
+  margin-top: 10px;
+}
+.choice:hover {
+  transform: scale(1.2);
+}
