@@ -6,28 +6,35 @@
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <div class="container">
       <h1>😊 Rock Paper Scissors 😊</h1>
+
       <div class="result-box">
-        <p>Your choice : <span>Rock</span></p>
-        <p>Computer's choice : <span>Rock</span></p>
-        <p class="draw"><span> Result : </span> <span>Draw</span> </p>
+        <p>Your choice : <span id="user-choice">-</span></p>
+        <p>Computer choice : <span id="computer-choice">-</span></p>
+        <p class="draw"><span>Result : </span><span id="result">-</span></p>
       </div>
+
       <div class="choices">
         <div class="choice">
-          🪨
+          <button onclick="playGame('rock')">🪨</button>
           <p>Rock</p>
         </div>
+
         <div class="choice">
-          📄
+          <button onclick="playGame('paper')">📄</button>
           <p>Paper</p>
         </div>
+
         <div class="choice">
-          ✂️
+          <button onclick="playGame('scissors')">✂️</button>
           <p>Scissors</p>
         </div>
       </div>
     </div>
+
+    <script src="main.js"></script>
   </body>
 </html>

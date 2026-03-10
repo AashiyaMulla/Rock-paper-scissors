@@ -41,6 +41,12 @@ h1 {
   justify-content: center;
   gap: 70px;
 }
+.choice button{
+font-size:60px;
+border:none;
+background:none;
+cursor:pointer;
+}
 .choice {
   font-size: 80px;
   cursor: pointer;
